@@ -1,0 +1,2 @@
+- Correcciones en fragmentos de codigo especificos.
+- Pregunta realizada: Manera correcta de definir una realcion ManyToMany en la entity deseada.
