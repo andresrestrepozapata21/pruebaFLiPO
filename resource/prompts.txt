@@ -1,2 +1,10 @@
 - Correcciones en fragmentos de codigo especificos.
 - Pregunta realizada: Manera correcta de definir una realcion ManyToMany en la entity deseada.
+- Se solicita estructura base en react de lo que se busca realizar, dada la estructura se empieza a personalizar, esto en REACT.
+- Se solicita ayuda con la organizacion de la tabla de clases, que me de la estrucutar del consumo a mi endpoint de la api.
+- React tiene el comportamiento normal de los form cuando son requeridos?
+- Como hago para que cuando yo seleccione el modulo clases por ejm, yo pueda navegar entre componentes que quiera?
+- Se pregunta: Dame la configuracion correcta de las Routes en React
+- Se pregunta: Dame la estructura de una tabla con checkBox al final y su configuracion de seleccion en react.
+- Se pregunta dado mi codigo:, ajusta el codigo para capturar los checkbox checked y consumir el endpoint que ya tengo listo.
+- Se pregunta dado mi codiog:, ajusta mi codigo al cargar el DOM, para poner en seleccionados los checkbox de que coincidan con los estudiantes en la respuesta de mi endpoint.

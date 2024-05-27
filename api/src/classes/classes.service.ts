@@ -166,6 +166,9 @@ export class ClassesService {
       if (!classInstance) {
         throw new NotFoundException(createResponse(HttpStatus.NOT_FOUND, 404, `Class with id ${id_class} not found`));
       }
+      // Clear existing students from the class
+      classInstance.students = [];
+      await this.classRepository.save(classInstance);
       // Find all student instances
       const students = await this.studentRepository.findByIds(student_ids);
       // Validate if all students exist in DB
