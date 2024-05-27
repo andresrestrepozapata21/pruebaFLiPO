@@ -1,9 +1,10 @@
+// app.module.jsx settings database, import modules needed.
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { TeachersModule } from './teachers/teachers.module';
 import { ClassesModule } from './classes/classes.module';
 import { StudentsModule } from './students/students.module';
-
+// DB setting
 @Module({
   imports: [
     TypeOrmModule.forRoot({

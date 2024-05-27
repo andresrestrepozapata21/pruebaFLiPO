@@ -5,7 +5,7 @@ import { Box, Typography, TextField, Button, Dialog, DialogTitle, DialogContent,
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-
+// class EditStudent
 const EditStudent = ({ onUpdateStudent }) => {
     const { id } = useParams(); // Captura el parámetro id de la URL
     const [name_student, setName] = useState('');

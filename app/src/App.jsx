@@ -55,7 +55,7 @@ function App() {
       console.error('Error fetching classes:', error);
     }
   };
-
+  // Return Routes structure app
   return (
     <Router>
       <Box sx={{ display: 'flex' }}>
